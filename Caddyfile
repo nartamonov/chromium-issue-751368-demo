@@ -1,0 +1,7 @@
+http://localhost {
+  redir https://localhost{uri}
+}
+
+https://localhost {
+  tls self_signed
+}
